@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: #0EDDCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #00DDCA;
+    font-weight: bold;
+    /* padding: 1% 5% 1%; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    /* float: right; */
+}
+.links:hover{
+    text-decoration: none;
+    color:rgb(255,56 ,83 ) ;
+}
+.links{
+    text-decoration:solid;
+    margin-right: 5%;
+    float: right;
+    color:#600090;
+}
+.brand{
+    display: inline;
+    width: 10%;
+    font-size: 200%;
+    color: rgb(255,246,207);
+    text-decoration:solid;
+}
+.navigators{
+    color: rgb(255,246,207);  
+    font:  sans-serif;
+    
+    margin-top: 0.8%;
+    width: 60%;
+    /* padding-right: 0%; */
+    float: right;
+   
+}
+
+.back{
+    position: absolute;
+}
+.tagline{
+    position: relative;
+    top: 8em;
+    left: 10%;
+    width: 15%;
+    color:#600090;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.save{
+   color: rgb(255,56 ,83 );
+   color: rgb(255,246,207);
+   color: #00DDCA;
+   color: #FFD137;
+   color: #F1B30A;
+   color: #90EFE0;
+   color:#4791A6;
+   color: #EE324A;
+   color: #FF8161;
+   color:#600090;
+}
+
+.topcontainer{
+    font-size: 100%;
+    margin-bottom: 50%;
+    
+}   
+.places{
+    text-align: center;
+    color: rgb(255,56 ,83 );
+
+}
+.content{
+    
+}
