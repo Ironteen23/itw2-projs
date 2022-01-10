@@ -1,11 +1,3 @@
-body {
-   background-image: linear-gradient(135deg, #e7efff 10%, #98fff0 100%); 
-  background-color: rgb(255,246,207);;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: "Open Sans", sans-serif;
-}
 a{
   text-decoration: none;
 }
@@ -14,7 +6,6 @@ a{
   width: 80%;
   background: #FFFFFF;
   border-radius: 10px;
-  overflow: hidden;
   display: flex;
   flex: 1 1 100%;
   align-items: stretch;
@@ -37,6 +28,7 @@ a{
   background-repeat: no-repeat;
   background-image: url(/images/jael-vallee-cRn7OCoyUnQ-unsplash.jpg);
   overflow: hidden;
+  /* position: absolute; */
 }
 .box-form .left .overlay {
   padding: 30px;
@@ -54,8 +46,9 @@ a{
   margin-bottom: 20px;
 }
 .box-form .left .overlay span p {
-  margin-top: 30px;
+  margin-top: 50%;
   font-weight: 900;
+
 }
 .box-form .left .overlay span a {
   background: #3b5998;
@@ -68,6 +61,7 @@ a{
 }
 .box-form .left .overlay span a:last-child {
   background: #1dcaff;
+  /* margin-top: 100%; */
   margin-left: 30px;
 }
 .box-form .right {
@@ -110,7 +104,6 @@ a{
   width: auto;
 }
 .box-form .right button {
-  float: right;
   color: #fff;
   font-size: 16px;
   padding: 12px 35px;
@@ -120,6 +113,9 @@ a{
   outline: 0;
   box-shadow: 0px 4px 20px 0px #49c628a6;
   background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+}
+button{
+  margin: auto;
 }
 
 label {
@@ -163,17 +159,7 @@ label span.text-checkbox {
 label input[type="checkbox"] {
   display: none;
 }
-.save{
-  color: rgb(255,56 ,83 );
-  color: rgb(255,246,207);
-  color: rgb(0,220,202);
-  color: #FFD137;
-  color: #F1B30A;
-  color: #90EFE0;
-  color: #4791A6;
-  color: #EE324A;
-  color: #FF8161;
-}
-button{
-  text-align: center;
-}
+
+.login{
+    margin: 0%;
+  }
