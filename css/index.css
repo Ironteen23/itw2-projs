@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    background-color: rgb(12, 215, 198);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgb(12, 215, 198);
+    font-weight: bold;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    
+}
+.links:hover{
+    text-decoration: none;
+    color:rgb(255,56 ,83 ) ;
+}
+.links{
+    text-decoration:solid;
+    margin-right: 5%;
+    float: right;
+    color:#600090;
+}
+.brand{
+    display: inline;
+    width: 10%;
+    font-size: 200%;
+    color: rgb(255,246,207);
+    text-decoration:solid;
+}
+.navigators{
+    color: rgb(255,246,207);  
+    font:  sans-serif;
+    
+    margin-top: 0.8%;
+    width: 60%;
+    float: right;
+   
+}
+
+.back{
+    position: absolute;
+}
+.tagline{
+    position: relative;
+    top: 8em;
+    left: 10%;
+    width: 15%;
+    color:#600090;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.save{
+   color: rgb(255,56 ,83 );
+   color: rgb(255,246,207);
+   color: rgb(12, 215, 198);
+   color: #FFD137;
+   color: #F1B30A;
+   color: #90EFE0;
+   color:#4791A6;
+   color: #EE324A;
+   color: #FF8161;
+   color:#600090;
+}
+
+.topcontainer{
+    font-size: 100%;
+    margin-bottom: 50%;
+    
+}   
+.places{
+    text-align: center;
+    color: #2e545f;
+
+}
+.content{
+    padding: 0% 5%;
+}
+.city{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #FFFFFF;
+    
+    height: auto;
+    background-color:#90EFE0; ;
+}
+img{
+    overflow: hidden;
+}
+
+div{
+    margin: 0;
+}
+.img{
+    /* background-color: #FFD137; */
+    border: solid;
+    /* height: 300px; */
+    overflow: hidden;
+
+}
