@@ -3,7 +3,7 @@ a{
 }
 .box-form {
   margin: 4% auto;
-  width: 85%;
+  width: 87%;
   background: #FFFFFF;
   border-radius: 10px;
   display: flex;
@@ -41,16 +41,15 @@ a{
 .box-form .left .overlay h1 {
   font-size: 10vmax;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 850;
   margin-top: 40px;
   margin-bottom: 20px;
 }
-.box-form .left .overlay span p {
-  margin-top: 50%;
+.box-form .right .overlay span p {
   font-weight: 900;
 
 }
-.box-form .left .overlay span a {
+.box-form .right .overlay span a {
   background: #3b5998;
   color: #FFFFFF;
   margin-top: 10px;
@@ -59,13 +58,12 @@ a{
   display: inline-block;
   box-shadow: 0 3px 6px 1px #042d4657;
 }
-.box-form .left .overlay span a:last-child {
+.box-form .right .overlay span a:last-child {
   background: #1dcaff;
-  /* margin-top: 100%; */
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .box-form .right {
-  padding: 40px;
+  padding: 36px;
   overflow: hidden;
 }
 @media (max-width: 980px) {
