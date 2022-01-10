@@ -3,24 +3,47 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Login Page in HTML with CSS Code Example</title>
+	<title>Login Page </title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="login.css">
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="login.css">
+
 </head>
 
+<style>
+	h1,p{
+		color: rgba(0, 0, 255, 0.582);
+	}
+
+	h2{
+		color:rgb(0, 132, 255)
+	}
+</style>
 <body>
 	<nav>
-		<a href="./" class="brand">
-			Trimp
-		</a>
-	</nav>
+        <a href="./index.html" class="brand">
+            Trimp
+        </a>
+
+        <div class="navigators">
+            <div class="nav-elements">
+                <a class="links" href="login.html">Login/Signup</a>
+                <a class="links" href="contact.html">Contact us</a>
+                <a href="review.html" class="links">Reviews</a>
+                <a class="links" href="plan.html">Plan a Tour</a>
+                <a class="links" href="about.html">About us</a>
+                <a class="links" href="./index.html">Home</a>
+
+            </div>
+        </div>
+    </nav>
 	<div class="box-form">
 		<div class="left">
 			<div class="overlay">
 				<h1>Welcome</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Curabitur et est sed felis aliquet sollicitudin</p>
+				<br><br>
+				<h2>Please fill in the details for better experience</h2>
 				<span>
 					<p>Login with social media</p>
 					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Login with facebook</a>
@@ -54,7 +77,5 @@
 		</div>
 
 	</div>
-
 </body>
-
 </html>
