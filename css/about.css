@@ -1,0 +1,10 @@
+body{
+    background-color: aliceblue;
+}
+
+.column {
+float: left;
+width: 45%;
+padding: 25px;
+}
+
