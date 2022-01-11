@@ -99,15 +99,14 @@ div{
     margin: 0;
 }
 .img{
-    /* background-color: #FFD137; */
+    
     border: solid;
-    /* height: 300px; */
     overflow: hidden;
 
 }
 
 /* <-------------------------- foooter ----------------------------------> */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
  .fbody{
      line-height: 1.5;
      font-family: 'Poppins', sans-serif;
