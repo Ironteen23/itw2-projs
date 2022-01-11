@@ -75,7 +75,7 @@ nav{
 .places{
     text-align: center;
     color: #2e545f;
-
+    
 }
 .content{
     padding: 0% 5%;
@@ -102,38 +102,38 @@ div{
     
     border: solid;
     overflow: hidden;
-
+    
 }
 .fbody{
-     line-height: 1.5;
-     font-family: 'Poppins', sans-serif;
- }
- *{
-     margin:0;
-     padding:0;
-     box-sizing: border-box;
- }
- .container{
-     max-width: 1170px;
-     margin:auto;
- }
- .row{
-     display: flex;
-     flex-wrap: wrap;
- }
- ul{
-     list-style: none;
- }
- .footer{
-     background-color: #2e545f;
-     padding: 70px 0;
- }
- .footer-col{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:#2e545f;
+    padding: 70px 50px;
+}
+.footer-col{
     width: 25%;
     padding: 0 15px;
- }
- .footer-col h4{
-     font-size: 18px;
+}
+.footer-col h4{
+    font-size: 18px;
      color: #ffffff;
      text-transform: capitalize;
      margin-bottom: 35px;
@@ -141,7 +141,6 @@ div{
      position: relative;
  }
  .footer-col h4::before{
-     content: '';
      position: absolute;
      left:0;
      bottom: -10px;
