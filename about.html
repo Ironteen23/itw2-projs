@@ -2,15 +2,58 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trimp</title>
-    <link rel="stylesheet" href="css\index.css">
-    <link rel="stylesheet" href="css/about.css">
+    <title>About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        nav {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(12, 215, 198);
+            font-weight: bold;
+
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 3%;
+
+        }
+
+        .links:hover {
+            text-decoration: none;
+            color: rgb(255, 56, 83);
+        }
+
+        .links {
+            text-decoration: solid;
+            margin-right: 5%;
+            float: right;
+            color: #600090;
+        }
+
+        .brand {
+            display: inline;
+            width: 10%;
+            font-size: 200%;
+            color: rgb(255, 246, 207);
+            text-decoration: solid;
+        }
+
+        .navigators {
+            color: rgb(255, 246, 207);
+            font: sans-serif;
+
+            margin-top: -0.24%;
+            width: 60%;
+            float: right;
+            
+
+        }
+    </style>
 </head>
 
-<body>
+<body style=" background-color: aliceblue;">
     <nav>
         <a href="./index.html" class="brand">
             Trimp
@@ -22,32 +65,42 @@
                 <a class="links" href="contact.html">Contact us</a>
                 <a href="review.html" class="links">Reviews</a>
                 <a class="links" href="plan.html">Plan a Tour</a>
-                <a class="links" href="about.html">About us</a>
+                <a class="links" href="aboutus.html">About us</a>
                 <a class="links" href="./index.html">Home</a>
 
             </div>
         </div>
     </nav>
-    <br>
 
-    <div class="column">
-        <h1>HEM MAHIMKAR</h1>
-        <h1>BT20CSE174</h1>
+    <section>
+        <div class="image">
+            <img src="images/shutterstock_128531876.jpg.webp">
+        </div>
 
-        <br><br>
-        <h2>I like to watch ANIME and football</h2>
-        <h2>ARIGATO</h2>
-    </div>
+        <div class="content">
+            <h2 style="    margin-top: 5%;
+            "> About Us</h2>
+            <span>
+                <!-- line here -->
+            </span>
+            <p>This is Assignment 1 of our Course IT Workshop 2. In this Website we have created a travel agency website. <br>
+                Team Members - <br>
+                <strong> Kinshu Jain (BT20CSE116) <br>
+                Hem Mahimkar (BT20CSE174)</strong>
+             </p>
 
-    <div class="column">
-        <h1>KINSHU JAIN</h1>
-        <h1>BT20CSE116</h1>
-        <br><br>
-        <h2>I like to do web development and watch movies</h2>
-        <h2>Thank You</h2>
-    </div>
+            <ul class="links">
+                <li><a href="#">Travel</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="#">explore</a></li>
+                <div class="vertical-line"></div>
+                <li><a href="#">enjoy</a></li>
+                <br>
+                <br>
+            </ul>
 
-
+        </div>
+    </section><br><br>
 </body>
 
 </html>
