@@ -1,0 +1,73 @@
+body{
+    background:url("images/citybg.jpg");
+
+}
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 30%;
+    
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 65%;
+    border: #04AA6D;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  h2{
+      background-color: rgb(33, 196, 218);
+      font-style: oblique;
+      padding: 12px;
+      box-shadow: 10px 10px 5px grey;
+      border-radius: 12px;
+  }
+  
+  p{
+    box-shadow: 5px 5px 5px   #3fbbda;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .b1{
+    padding:10px;
+    background-color: sandybrown;
+  }
+  
+  table {
+    border-radius: 5%;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    border: #0c92ec;
+    padding: 10px;
+  }
+  
+  h3{
+    color:red;
+  }
+  
+  tr:nth-child(even){background-color: #0cd2ec}
+  
+  th {
+    background-color: aliceblue;
+    color: rgb(69, 70, 19);
+  }
+     
