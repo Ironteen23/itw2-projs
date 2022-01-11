@@ -8,10 +8,6 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-body{
-    background:url("images/citybg.jpg");
-
-}
 
 .column {
     float: left;
