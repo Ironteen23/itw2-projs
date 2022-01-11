@@ -1,6 +1,9 @@
 a{
   text-decoration: none;
 }
+body{
+  background-color: aliceblue;
+}
 .box-form {
   margin: 4% auto;
   width: 87%;
@@ -72,7 +75,7 @@ a{
 }
 .box-form .right h5 {
   font-size: 6vmax;
-  line-height: 0;
+  line-height: 1;
 }
 .box-form .right p {
   font-size: 14px;
